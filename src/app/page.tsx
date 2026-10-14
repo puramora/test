@@ -20,6 +20,9 @@ export default function Home() {
           <p className="text-lg sm:text-xl text-lime-800 font-medium max-w-lg mx-auto leading-relaxed">
             가장 단순하고 깔끔한 Next.js 시작 템플릿입니다.
           </p>
+          <p className="text-base sm:text-lg text-lime-700 font-medium">
+            곧 인터넷에서 만나요
+          </p>
         </div>
 
         <div className="grid grid-cols-3 gap-3 pt-2">
