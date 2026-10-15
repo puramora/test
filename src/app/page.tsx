@@ -43,6 +43,10 @@ export default function Home() {
         <div className="pt-4 border-t border-yellow-200/80 text-xs text-lime-700">
           시작하려면 <code className="px-2 py-0.5 rounded bg-lime-100 font-mono text-lime-900 font-semibold border border-lime-300">src/app/page.tsx</code> 파일을 수정하세요.
         </div>
+
+        <p className="text-sm sm:text-base font-semibold" style={{ color: '#C84726' }}>
+          오늘 처음 인터넷에 사이트를 올렸어요!
+        </p>
       </div>
     </main>
   );
