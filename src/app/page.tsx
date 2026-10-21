@@ -1,3 +1,5 @@
+import ContactForm from "@/components/ContactForm";
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-6 bg-gradient-to-br from-yellow-200 via-amber-100 to-yellow-300 text-lime-800 relative overflow-hidden">
@@ -5,7 +7,7 @@ export default function Home() {
       <div className="absolute top-1/4 -left-20 w-80 h-80 bg-yellow-400/30 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-1/4 -right-20 w-80 h-80 bg-amber-300/30 rounded-full blur-3xl pointer-events-none" />
 
-      <div className="relative max-w-2xl w-full text-center space-y-6 p-8 sm:p-10 bg-white/90 backdrop-blur-md rounded-3xl border border-yellow-300/80 shadow-2xl shadow-yellow-600/15">
+      <div className="relative max-w-2xl w-full text-center space-y-6 p-8 sm:p-10 bg-white/90 backdrop-blur-md rounded-3xl border border-yellow-300/80 shadow-2xl shadow-yellow-600/15 my-8">
         <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-semibold bg-lime-100 text-lime-800 border border-lime-300 shadow-sm">
           <span className="w-2 h-2 rounded-full bg-emerald-600 animate-pulse" />
           Next.js 프로젝트 준비 완료
@@ -47,6 +49,9 @@ export default function Home() {
         <p className="text-sm sm:text-base font-semibold" style={{ color: '#ec4899' }}>
           오늘 처음 인터넷에 사이트를 올렸어요!
         </p>
+
+        {/* 내 사이트 맨 아래에 「연락하기」 칸 */}
+        <ContactForm />
       </div>
     </main>
   );
