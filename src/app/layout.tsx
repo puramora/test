@@ -29,6 +29,16 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="ko"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        <meta
+          name="google-site-verification"
+          content="PoJyMfHCMOhSo-PpEOZOC3iEUpie5fa3FApsUeVQoGA"
+        />
+        <meta
+          name="naver-site-verification"
+          content="d6aa24194d2745c5fe9b5b326fdaf4b717b081f9"
+        />
+      </head>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
