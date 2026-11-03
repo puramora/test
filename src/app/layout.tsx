@@ -13,8 +13,31 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "My First Site",
-  description: "가장 단순한 Next.js 프로젝트",
+  metadataBase: new URL("https://mangoai.kr"),
+  title: "망고에이아이내 사이트 제목",
+  description: "문의사항남겨주세요",
+  openGraph: {
+    title: "망고에이아이내 사이트 제목",
+    description: "문의사항남겨주세요",
+    url: "https://mangoai.kr",
+    siteName: "망고에이아이내 사이트 제목",
+    images: [
+      {
+        url: "/profile.png",
+        width: 800,
+        height: 800,
+        alt: "망고에이아이내 사이트 제목",
+      },
+    ],
+    locale: "ko_KR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "망고에이아이내 사이트 제목",
+    description: "문의사항남겨주세요",
+    images: ["/profile.png"],
+  },
   verification: {
     google: "PoJyMfHCMOhSo-PpEOZOC3iEUpie5fa3FApsUeVQoGA",
     other: {
