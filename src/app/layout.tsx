@@ -15,6 +15,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "My First Site",
   description: "가장 단순한 Next.js 프로젝트",
+  verification: {
+    google: "PoJyMfHCMOhSo-PpEOZOC3iEUpie5fa3FApsUeVQoGA",
+    other: {
+      "naver-site-verification": "d6aa24194d2745c5fe9b5b326fdaf4b717b081f9",
+    },
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
